@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Praça Pastor Adalino Inácio Sobrinho</title>
+  <meta name="description" content="Informações e fotos da Praça Pastor Adalino Inácio Sobrinho." />
+  <meta property="og:title" content="Praça Pastor Adalino Inácio Sobrinho" />
+  <meta property="og:description" content="Informações e fotos da praça." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/images/favicon.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Praça Pastor Adalino Inácio Sobrinho</h1>
+      <p class="location">Localização: (preencher bairro / cidade)</p>
+      <nav class="quick-nav" aria-label="Navegação principal">
+        <a href="#informacoes">Informações</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#apoie">Apoie</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="main">
+    <section id="informacoes" class="info">
+      <h2>Sobre a praça</h2>
+      <p>Paragrafo01</p>
+      <p>Paragrafo02</p>
+      <p>Paragrafo03</p>
+    </section>
+
+    <section id="galeria" class="gallery">
+      <h2>Galeria de fotos</h2>
+      <p class="hint">Clique em uma imagem para ampliar</p>
+      <div class="grid" aria-live="polite">
+        <!-- 10 imagens -->
+        <figure>
+          <button class="thumb-btn" data-index="1" aria-label="Abrir Imagem 1">
+            <img src="assets/images/Imagem01.jpg" alt="Imagem 1 - Praça" loading="lazy" />
+          </button>
+          <figcaption>Imagem01</figcaption>
+        </figure>
+
+        <figure>
+          <button class="thumb-btn" data-index="2" aria-label="Abrir Imagem 2">
+            <img src="assets/images/Imagem02.jpg" alt="Imagem 2 - Praça" loading="lazy" />
+          </button>
+          <figcaption>Imagem02</figcaption>
+        </figure>
+
+        <figure>
+          <button class="thumb-btn" data-index="3" aria-label="Abrir Imagem 3">
+            <img src="assets/images/Imagem03.jpg" alt="Imagem 3 - Praça" loading="lazy" />
+          </button>
+          <figcaption>Imagem03</figcaption>
+        </figure>
+
+        <figure>
+          <button class="thumb-btn" data-index="4" aria-label="Abrir Imagem 4">
+            <img src="assets/images/Imagem04.jpg" alt="Imagem 4 - Praça" loading="lazy" />
+          </button>
+          <figcaption>Imagem04</figcaption>
+        </figure>
+
+        <figure>
+          <button class="thumb-btn" data-index="5" aria-label="Abrir Imagem 5">
+            <img src="assets/images/Imagem05.jpg" alt="Imagem 5 - Praça" loading="lazy" />
+          </button>
+          <figcaption>Imagem05</figcaption>
+        </figure>
+
+        <figure>
+          <button class="thumb-btn" data-index="6" aria-label="Abrir Imagem 6">
+            <img src="assets/images/Imagem06.jpg" alt="Imagem 6 - Praça" loading="lazy" />
+          </button>
+          <figcaption>Imagem06</figcaption>
+        </figure>
+
+        <figure>
+          <button class="thumb-btn" data-index="7" aria-label="Abrir Imagem 7">
+            <img src="assets/images/Imagem07.jpg" alt="Imagem 7 - Praça" loading="lazy" />
+          </button>
+          <figcaption>Imagem07</figcaption>
+        </figure>
+
+        <figure>
+          <button class="thumb-btn" data-index="8" aria-label="Abrir Imagem 8">
+            <img src="assets/images/Imagem08.jpg" alt="Imagem 8 - Praça" loading="lazy" />
+          </button>
+          <figcaption>Imagem08</figcaption>
+        </figure>
+
+        <figure>
+          <button class="thumb-btn" data-index="9" aria-label="Abrir Imagem 9">
+            <img src="assets/images/Imagem09.jpg" alt="Imagem 9 - Praça" loading="lazy" />
+          </button>
+          <figcaption>Imagem09</figcaption>
+        </figure>
+
+        <figure>
+          <button class="thumb-btn" data-index="10" aria-label="Abrir Imagem 10">
+            <img src="assets/images/Imagem10.jpg" alt="Imagem 10 - Praça" loading="lazy" />
+          </button>
+          <figcaption>Imagem10</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="apoie" class="support">
+      <h2>Apoie a melhoria da praça</h2>
+      <p>Se você concorda que a praça precisa de melhorias, assine a petição:</p>
+      <p><a class="external-link" href="https://www.abaixoassinado.org/" target="_blank" rel="noopener noreferrer">Abaixo-assinado — clique aqui</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Autor: paulopetrillo — <a href="https://github.com/paulopetrillo/praca_QI_11" target="_blank" rel="noopener noreferrer">Repositório</a></p>
+      <p>Última atualização: <span id="build-date"></span></p>
+    </div>
+  </footer>
+
+  <!-- Lightbox modal -->
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Visualizador de imagens">
+    <button class="lb-close" aria-label="Fechar">✕</button>
+    <img class="lb-image" alt="" />
+    <p class="lb-caption"></p>
+    <button class="lb-prev" aria-label="Anterior">◀</button>
+    <button class="lb-next" aria-label="Próximo">▶</button>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
