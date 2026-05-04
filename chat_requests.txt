@@ -36,4 +36,6 @@ Solicitações do chat neste projeto:
 
 13. Sim, configure os testes para gravar o resultado dos testes unitário em um arquivo json. Depois execute novamente os testes unitários.
 
-14. Atualize as requisções deste chat no arquivo chat_requests.txt.
+14. Atualize as requisições deste chat no arquivo chat_requests.txt.
+
+15. Efetue a alteração no arquivo README.md conforme as características citadas acima. Depois atualize o arquivo chat_requests.txt com todas as requisições deste chat.
