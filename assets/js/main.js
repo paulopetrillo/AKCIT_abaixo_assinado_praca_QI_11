@@ -1,16 +1,22 @@
 // Minimal lightbox for the 10 images; accessible, keyboard support
 (function(){
   const images = [
-    {src:'assets/images/Imagem01.jpg', caption:'Imagem01', alt:'Imagem 1 - Praça'},
-    {src:'assets/images/Imagem02.jpg', caption:'Imagem02', alt:'Imagem 2 - Praça'},
-    {src:'assets/images/Imagem03.jpg', caption:'Imagem03', alt:'Imagem 3 - Praça'},
-    {src:'assets/images/Imagem04.jpg', caption:'Imagem04', alt:'Imagem 4 - Praça'},
-    {src:'assets/images/Imagem05.jpg', caption:'Imagem05', alt:'Imagem 5 - Praça'},
-    {src:'assets/images/Imagem06.jpg', caption:'Imagem06', alt:'Imagem 6 - Praça'},
-    {src:'assets/images/Imagem07.jpg', caption:'Imagem07', alt:'Imagem 7 - Praça'},
-    {src:'assets/images/Imagem08.jpg', caption:'Imagem08', alt:'Imagem 8 - Praça'},
-    {src:'assets/images/Imagem09.jpg', caption:'Imagem09', alt:'Imagem 9 - Praça'},
-    {src:'assets/images/Imagem10.jpg', caption:'Imagem10', alt:'Imagem 10 - Praça'}
+    {src:'assets/images/IMG_20260503_154026854_HDR.jpg', caption:'IMG_20260503_154026854_HDR', alt:'Imagem 1 - Praça'},
+    {src:'assets/images/IMG_20260503_154046762.jpg', caption:'IMG_20260503_154046762', alt:'Imagem 2 - Praça'},
+    {src:'assets/images/IMG_20260503_154100838_HDR.jpg', caption:'IMG_20260503_154100838_HDR', alt:'Imagem 3 - Praça'},
+    {src:'assets/images/IMG_20260503_154141582_HDR.jpg', caption:'IMG_20260503_154141582_HDR', alt:'Imagem 4 - Praça'},
+    {src:'assets/images/IMG_20260503_154153150_HDR.jpg', caption:'IMG_20260503_154153150_HDR', alt:'Imagem 5 - Praça'},
+    {src:'assets/images/IMG_20260503_154204550.jpg', caption:'IMG_20260503_154204550', alt:'Imagem 6 - Praça'},
+    {src:'assets/images/IMG_20260503_154211580.jpg', caption:'IMG_20260503_154211580', alt:'Imagem 7 - Praça'},
+    {src:'assets/images/IMG_20260503_154232175_HDR.jpg', caption:'IMG_20260503_154232175_HDR', alt:'Imagem 8 - Praça'},
+    {src:'assets/images/IMG_20260503_154238114_HDR.jpg', caption:'IMG_20260503_154238114_HDR', alt:'Imagem 9 - Praça'},
+    {src:'assets/images/IMG_20260503_154305308_HDR.jpg', caption:'IMG_20260503_154305308_HDR', alt:'Imagem 10 - Praça'},
+    {src:'assets/images/IMG_20260503_154320493.jpg', caption:'IMG_20260503_154320493', alt:'Imagem 11 - Praça'},
+    {src:'assets/images/IMG_20260503_154333497.jpg', caption:'IMG_20260503_154333497', alt:'Imagem 12 - Praça'},
+    {src:'assets/images/IMG_20260503_154337478.jpg', caption:'IMG_20260503_154337478', alt:'Imagem 13 - Praça'},
+    {src:'assets/images/IMG_20260503_154358190_HDR.jpg', caption:'IMG_20260503_154358190_HDR', alt:'Imagem 14 - Praça'},
+    {src:'assets/images/IMG_20260503_154423402.jpg', caption:'IMG_20260503_154423402', alt:'Imagem 15 - Praça'},
+    {src:'assets/images/IMG_20260503_154438050.jpg', caption:'IMG_20260503_154438050', alt:'Imagem 16 - Praça'}
   ];
 
   const lightbox = document.getElementById('lightbox');
