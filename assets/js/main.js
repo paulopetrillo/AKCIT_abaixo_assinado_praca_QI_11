@@ -82,4 +82,12 @@
 
   // build date
   document.getElementById('build-date').textContent = new Date().toLocaleDateString('pt-BR');
+
+  // Expose functions for testing
+  window.images = images;
+  window.openLightbox = open;
+  window.closeLightbox = close;
+  window.prevLightbox = prev;
+  window.nextLightbox = next;
+  window.currentIndex = () => current;
 })();

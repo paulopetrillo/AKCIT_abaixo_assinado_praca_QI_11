@@ -1,0 +1,14 @@
+{
+  "name": "abaixo-assinado-praca-qi-11",
+  "version": "1.0.0",
+  "description": "Site para petição de melhoria da Praça Pastor Adalino Inácio Sobrinho",
+  "main": "index.html",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
