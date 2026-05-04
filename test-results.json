@@ -1,0 +1,164 @@
+{
+    "numFailedTestSuites": 0,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 1,
+    "numPassedTests": 8,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 0,
+    "numTodoTests": 0,
+    "numTotalTestSuites": 1,
+    "numTotalTests": 8,
+    "openHandles": [],
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesRemovedList": [],
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 0,
+        "total": 0,
+        "unchecked": 0,
+        "uncheckedKeysByFile": [],
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1777869049450,
+    "success": true,
+    "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "Lightbox Tests"
+                    ],
+                    "duration": 252,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Lightbox Tests Array de imagens tem 16 itens",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 1,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "Array de imagens tem 16 itens"
+                },
+                {
+                    "ancestorTitles": [
+                        "Lightbox Tests"
+                    ],
+                    "duration": 87,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Lightbox Tests Cada imagem tem propriedades src, caption e alt",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 48,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "Cada imagem tem propriedades src, caption e alt"
+                },
+                {
+                    "ancestorTitles": [
+                        "Lightbox Tests"
+                    ],
+                    "duration": 62,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Lightbox Tests Abrir lightbox define src e caption corretos",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 2,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "Abrir lightbox define src e caption corretos"
+                },
+                {
+                    "ancestorTitles": [
+                        "Lightbox Tests"
+                    ],
+                    "duration": 43,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Lightbox Tests Abrir lightbox define aria-hidden como false",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 1,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "Abrir lightbox define aria-hidden como false"
+                },
+                {
+                    "ancestorTitles": [
+                        "Lightbox Tests"
+                    ],
+                    "duration": 48,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Lightbox Tests Fechar lightbox define aria-hidden como true",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 1,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "Fechar lightbox define aria-hidden como true"
+                },
+                {
+                    "ancestorTitles": [
+                        "Lightbox Tests"
+                    ],
+                    "duration": 40,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Lightbox Tests Navegação next() funciona circularmente",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 1,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "Navegação next() funciona circularmente"
+                },
+                {
+                    "ancestorTitles": [
+                        "Lightbox Tests"
+                    ],
+                    "duration": 31,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Lightbox Tests Navegação prev() funciona circularmente",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 1,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "Navegação prev() funciona circularmente"
+                },
+                {
+                    "ancestorTitles": [
+                        "Lightbox Tests"
+                    ],
+                    "duration": 30,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Lightbox Tests Data de build é definida",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 1,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "Data de build é definida"
+                }
+            ],
+            "endTime": 1777869052357,
+            "message": "",
+            "name": "/home/paulo/AKCIT/Abaixo_Assinado/assets/js/main.test.js",
+            "startTime": 1777869050909,
+            "status": "passed",
+            "summary": ""
+        }
+    ],
+    "wasInterrupted": false
+}

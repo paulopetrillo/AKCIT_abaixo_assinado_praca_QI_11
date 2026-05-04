@@ -4,7 +4,7 @@
   "description": "Site para petição de melhoria da Praça Pastor Adalino Inácio Sobrinho",
   "main": "index.html",
   "scripts": {
-    "test": "jest",
+    "test": "jest --json --outputFile=./test-results.json",
     "test:watch": "jest --watch"
   },
   "devDependencies": {
