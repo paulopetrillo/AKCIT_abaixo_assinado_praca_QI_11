@@ -10,7 +10,7 @@ Solicitações do chat neste projeto:
 
 3. Crie uma pasta chamada "Images" dentro da pasta "assets".
 
-4. Na classe div class="grid" aria-live="polite", crie uma tag para cada imagem dentro de assets/images da esma foram que foi feito, conforme abaixo:
+4. Na classe div class="grid" aria-live="polite", crie uma tag para cada imagem dentro de assets/images da mesma forma que foi feito, conforme abaixo:
    <figure>
      <button class="thumb-btn" data-index="1" aria-label="Abrir Imagem 1">
        <img src="assets/images/Imagem01.jpg" alt="Imagem 1 - Praça" loading="lazy" />
@@ -23,3 +23,9 @@ Solicitações do chat neste projeto:
 6. Insira na página o seguinte iframe do google maps "<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.721398269797!2d-47.981753725101385!3d-15.822137684822083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a313fcd638a03%3A0xd02355b38135c0ab!2sPra%C3%A7a%20Pastor%20Adalino%20In%C3%A1cio%20Sobrinho!5e1!3m2!1spt-BR!2sbr!4v1777864136521!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" antes do primeiro parágrafo.
 
 7. Efetue toda configuração mencionada acima para rodar os testes e crie os arquivos com os testes.
+
+8. Atualize todas as requisições deste chat no arquivo chat_requests.txt.
+
+9. Considerando este projeto, quais é a configuração recomendada para o arquivo gitignore?
+
+10. Crie o arquivo gitignote considerando e efetuando as recomendações acima.
