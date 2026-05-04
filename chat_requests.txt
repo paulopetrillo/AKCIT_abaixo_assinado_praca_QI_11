@@ -29,3 +29,11 @@ Solicitações do chat neste projeto:
 9. Considerando este projeto, quais é a configuração recomendada para o arquivo gitignore?
 
 10. Crie o arquivo gitignote considerando e efetuando as recomendações acima.
+
+11. execute os testes unitários.
+
+12. Onde fica registrado os resultados dos testes unitários?
+
+13. Sim, configure os testes para gravar o resultado dos testes unitário em um arquivo json. Depois execute novamente os testes unitários.
+
+14. Atualize as requisções deste chat no arquivo chat_requests.txt.
